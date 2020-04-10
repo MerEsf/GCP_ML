@@ -47,12 +47,18 @@ The predictions are made on the last 1 month (out of 12 months) of the dataset.
 The model outputs the predictions it has for those July 2017 ecommerce sessions. We can see three newly added fields:
 
 •	predicted_will_buy_on_return_visit: whether the model thinks the visitor will buy later (1 = yes)
+
 •	predicted_will_buy_on_return_visit_probs.label: the binary classifier for yes / no
+
 •	predicted_will_buy_on_return_visit.prob: the confidence the model has in it's prediction (1 = 100%)
 
-## Results
+## Results:
+
 •	Of the top 6% of first-time visitors (sorted in decreasing order of predicted probability), more than 6% make a purchase in a later visit.
+
 •	These users represent nearly 50% of all first-time visitors who make a purchase in a later visit.
+
 •	Overall, only 0.7% of first-time visitors make a purchase in a later visit.
+
 •	Targeting the top 6% of first-time increases marketing ROI by 9x vs targeting them all!
 
